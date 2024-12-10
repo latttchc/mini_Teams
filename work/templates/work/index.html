@@ -41,7 +41,7 @@
     {% endfor %}
 
     <div class="text-center">
-        <a href="{% url 'work:create' account_id=user.account_id %}">新規作成</a>
+        <a href="{% url 'work:create' account_id=user.account_id %}">Create</a>
     </div>
     <div>
         <a href="{% url 'accounts:logout' %}" class="btn btn-primary">Logout</a>
